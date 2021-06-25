@@ -12,7 +12,7 @@ import java.sql.SQLException
 fun main(args: Array<String>) {
 
     println("Welcome to Jurassic World")
-    println("Whats your username? 2")
+    println("Whats your username?")
 
     val username = readLine()!!
     loadScreenToMenu(username)
